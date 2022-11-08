@@ -1,0 +1,92 @@
+
+body {
+    background-image: url('images/sepideh-doost--Gtecp6zmeU-unsplash copy.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: cursive;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+h1 {
+
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+.firstp{
+    text-align: center;
+    padding-bottom: 1em;
+    margin-bottom: unset;
+}
+  
+p{
+    margin-bottom: -10px;
+}
+
+form{
+    background-color: rgba(10, 74, 159, 0.5);
+    border-radius: 15px;
+    color: #f5f6f7;
+    width: 60vw;
+    margin: 0 auto;
+    padding-bottom: 2em;   
+    
+    
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 3rem;
+    
+  }
+
+  label {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+.picks{
+    margin-bottom: -15px;
+}
+  input, textarea {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #f6f1f1;
+    color: #b8a7a7;
+    border-radius: 5px;
+  }
+
+/*.selectplaceholder{
+    font-family: cursive;
+    color: rgb(211,211,211);
+    opacity: 0.5;
+}*/
+
+  input[type="submit"] {
+    display: block;
+    /*width: 60%;*/
+    width: 60vw;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #484877;
+    border-color: white;
+    /*min-width: 300px;*/
+  }
+  

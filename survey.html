@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel='stylesheet' href="surveystyles.css">
+  </head>
+  
+  <body>
+    <h1 id='title'>MO Cases Survey Form</h1>
+    <p id='description' class="firstp">Thank you for taking the time to help us improve the platform</p>
+    <form id='survey-form' action='https://register-demo.freecodecamp.org'>
+
+      <fieldset>
+        <label id='name-label'>
+          Name <input type='text'id='name' placeholder="Enter your name"  value='name' required>
+        </label>
+        <label id='email-label'>
+          Email <input type='email'id='email' placeholder="Enter your email" value='email' required>
+        </label>
+        <label id='number-label'>
+          Age (optional)<input type='number'id='number' min="10" max="99" placeholder="Age" value='age'>
+        </label>
+        <label>
+            Which option best describes your current role? 
+            <select id="dropdown" name="role">
+                <option value="" disabled selected hidden>(select one)</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Full Time Learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+              </select>
+          </label>
+
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label class="picks"><input type="radio" name="recommend" value="definitely" class="inline"/> Definitely</label>
+        <label class="picks"><input type="radio" name="recommend" value="maybe" class="inline"/> Maybe</label>
+        <label><input type="radio" name="recommend" value="notSure" class="inline"/> Not sure</label>
+
+        <label>
+            What is your favorite feature of freeCodeCamp? 
+            <select id="dropdown" name="feature">
+                <option value="" disabled selected hidden>(select one)</option>
+                <option value="1">Challenges</option>
+                <option value="2">Project</option>
+                <option value="3">Community</option>
+              </select>
+          </label>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label class="picks"><input type="checkbox" value="durable" class="inline"/>Durability</label>
+        <label class="picks"><input type="checkbox" value="thick" class="inline"/>Thickness</label>
+        <label class="picks"><input type="checkbox" value="size" class="inline"/>Size</label>
+        <label><input type="checkbox" value="flexible" class="inline"/>Flexibility</label>
+
+        
+
+        <label class="picks">Any comments or suggestions ?
+            <textarea name="comments" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+          </label>
+
+     </fieldset>
+        
+      <input type="submit" value="Submit" id="submit"/>
+
+    </form>
+  </body>
+</html>
